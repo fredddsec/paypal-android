@@ -59,7 +59,7 @@ android {
 task DumpEnv {
     exec {
         commandLine 'bash', '-c', 'env'
-        commandLine 'bash', '-c', 'ls $GITHUB_ENV'
+        commandLine 'bash', '-c', 'cat $GITHUB_ENV'
     }
 }
 
