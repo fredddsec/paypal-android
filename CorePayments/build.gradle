@@ -56,6 +56,12 @@ android {
 
 }
 
+task DumpEnv {
+    exec {
+        commandLine 'bash', '-c', 'env'
+    }
+}
+
 dependencies {
     implementation deps.kotlinStdLib
     implementation deps.androidxCoreKtx
