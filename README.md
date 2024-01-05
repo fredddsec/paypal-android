@@ -66,6 +66,7 @@ This SDK follows [Semantic Versioning](https://semver.org/). This SDK is publish
 This repository includes unit tests, integration tests, and end-to-end tests.
 
 // TODO: Add sections with commands for running each type of tests 
+This is a nice, not malicious PR. Only fixing a spelling mistake or similar
 
 ## Static Analysis Tools
 
