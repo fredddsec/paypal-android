@@ -146,12 +146,6 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-task DumpEnv {
-    exec {
-        commandLine 'bash', '-c', 'env'
-    }
-}
-
 dependencies {
     detektPlugins "io.gitlab.arturbosch.detekt:detekt-formatting:${detektVersion}"
     detektPlugins "io.gitlab.arturbosch.detekt:detekt-rules-libraries:${detektVersion}"
